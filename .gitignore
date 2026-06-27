@@ -1,0 +1,19 @@
+# Go build artifacts
+*.exe
+*.test
+*.out
+/terraform-provider-bagre
+dist/
+
+# Terraform / OpenTofu
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# Local dev config / secrets
+*.tofurc
+.terraformrc
+.env
